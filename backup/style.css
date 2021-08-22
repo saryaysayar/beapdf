@@ -1,0 +1,24 @@
+span{
+
+	background-color: black;
+	color: green;
+}
+
+table{
+	background-color: gray;
+	border-color: black;
+}
+
+html {
+	background-color: dimgray;
+}
+.html-marquee {
+  background-color:#000000;
+  font-family:Cursive;
+  font-size:14px;
+  color:#44ff00;
+  font-weight:bold;
+  border-width:1;
+  border-style:solid;
+  border-color:#000000;
+}

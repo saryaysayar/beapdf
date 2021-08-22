@@ -3,6 +3,13 @@ span{
 	background-color: black;
 	color: green;
 }
+#sp1{
+    background-color: grey;
+    color: black;
+    font-size: 30px;
+    border: 3px double black;
+
+}
 
 table{
 	background-color: gray;
@@ -21,4 +28,31 @@ html {
   border-width:1;
   border-style:solid;
   border-color:#000000;
+}
+
+details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    cursor: pointer;
+}
+
+details[open] {
+    padding: .5em;
+    cursor: pointer;
+}
+
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: .5em;
+      cursor: pointer;
+}
+.td1{
+  text-align: center;
 }
